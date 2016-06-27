@@ -22,13 +22,10 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_no_telephony.mk)
 # Inherit from shieldtablet device
 $(call inherit-product, device/nvidia/shieldtablet/device.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_shieldtablet
 PRODUCT_DEVICE := shieldtablet
-PRODUCT_BRAND := NVIDIA
-PRODUCT_MANUFACTURER := NVIDIA
-PRODUCT_MODEL := SHIELD Tablet
