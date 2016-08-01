@@ -2,9 +2,9 @@
 $(call inherit-product, device/nvidia/shieldtablet/full_shieldtablet.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/tesla/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/validus/config/common_full_tablet_wifionly.mk)
 
-PRODUCT_NAME := tesla_shieldtablet
+PRODUCT_NAME := validus_shieldtablet
 PRODUCT_DEVICE := shieldtablet
 PRODUCT_BRAND := NVIDIA
 PRODUCT_MANUFACTURER := NVIDIA
