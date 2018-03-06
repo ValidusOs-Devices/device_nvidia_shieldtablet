@@ -1,2 +1,1 @@
-add_lunch_combo lineage_shieldtablet-eng
-add_lunch_combo lineage_shieldtablet-userdebug
+add_lunch_combo validus_shieldtablet-userdebug
