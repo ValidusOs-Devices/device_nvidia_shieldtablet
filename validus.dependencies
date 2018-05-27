@@ -31,8 +31,8 @@
  },
  {
    "remote": "github",
-   "repository": "TheMuppets/proprietary_vendor_nvidia",
+   "repository": "BigTopKrazies/vendor_nvidia",
    "target_path": "vendor/nvidia",
-   "branch"     : "lineage-15.1"
+   "branch"     : "8.1"
  }
 ]
